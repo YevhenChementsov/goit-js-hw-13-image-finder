@@ -3,6 +3,10 @@
  * Все паршалы подключаются сюда.
  */
 
+@import '@pnotify/core/dist/PNotify.css';
+@import '@pnotify/core/dist/BrightTheme.css';
+@import '../../node_modules/basiclightbox/dist/basicLightbox.min.css';
+
 @import './styles';
 @import './spiner';
 @import './up-button';

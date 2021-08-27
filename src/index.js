@@ -1,8 +1,4 @@
 import { error } from '@pnotify/core';
-import '@pnotify/core/dist/PNotify.css';
-import '@pnotify/core/dist/BrightTheme.css';
-
-import 'basiclightbox/dist/basiclightbox.min.css';
 
 import './sass/main.scss';
 import './js/up-home-button';
