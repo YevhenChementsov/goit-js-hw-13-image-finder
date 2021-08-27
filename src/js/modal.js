@@ -5,7 +5,7 @@ export default function onOpenModalImage(event) {
   if (!isImgEl) {
     return;
   }
-  const largeImageURL = event.target.getAttribute('data-large-image-url');
+  const largeImageURL = event.target.getAttribute('data-src');
 
   const instance = basicLightbox.create(
     `
