@@ -9,6 +9,7 @@ import onOpenModalImage from './js/modal';
 
 const refs = {
   searchForm: document.querySelector('.js-search-form'),
+  formInput: document.querySelector('.form-control'),
   galleryContainer: document.querySelector('.js-gallery-container'),
   // loadMoreBtn: document.querySelector('[data-action="load-more"]'),
   intersectingAnchor: document.querySelector('.intersecting-anchor'),
@@ -46,6 +47,7 @@ async function onSearch(event) {
   appendPicturesMarkup(response);
   // refs.loadMoreBtn.classList.remove('is-hidden');
   refs.spinner.classList.remove('is-hidden');
+  refs.formInput.value = '';
 }
 
 function appendPicturesMarkup(hits) {
