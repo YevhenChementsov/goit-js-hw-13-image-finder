@@ -9,7 +9,7 @@ export default function onOpenModalImage(event) {
 
   const instance = basicLightbox.create(
     `
-    <img width="1024" height="768" src=${largeImageURL}>
+    <img src=${largeImageURL}>
   `,
   {
     onClose: () => {
